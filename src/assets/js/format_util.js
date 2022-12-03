@@ -1,11 +1,14 @@
+//添加百分比%
 const formatPercent = (val) => {
   return val + "%";
 };
 
+//添加元
 const formatPrice = (val) => {
   return val + "元";
 };
 
+//跟价格相关的格式化
 const formatBigDecimal = (num) => {
   if (!num || isNaN(num)) {
     return "请传入数值格式的数据";
